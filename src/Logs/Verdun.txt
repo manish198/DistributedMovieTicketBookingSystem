@@ -6,3 +6,9 @@
 18-02-2023 18:32:30 : Ticket Canceled for  : Username: VERA2022 for movie Avatar for slot: VERM020223  : Success  :  Movie Ticket cancelled successfully 
 18-02-2023 18:32:45 : Ticket Schedule for  : Username: VERA2022  : Success  : Booking Schedule successfully displayed
 18-02-2023 18:33:14 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 10:09:26 : Add movie slots : VERM230223 Titanic 40 : Passed : Titanic Slots VERM230223 40 available
+20-02-2023 10:09:35 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 10:09:47 : Show availability for  : Avenger  : Success :  Show Availibility Displayed
+20-02-2023 10:09:59 : Show availability for  : Titanic  : Success :  Show Availibility Displayed
+20-02-2023 10:21:32 : Add movie slots : VERM220223 Avatar 25 : Passed : Avatar Slots VERM220223 25 available
+20-02-2023 10:21:54 : Ticket booking for  : Username: ATWC2022 for movie Avatar for slot: VERM220223  : Success  : 2 Movie Tickets booked successfully.

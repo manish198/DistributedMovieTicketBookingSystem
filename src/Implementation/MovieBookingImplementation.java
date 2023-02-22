@@ -86,7 +86,7 @@ public class MovieBookingImplementation extends UnicastRemoteObject implements A
 		 * @return
 		 * @throws IOException
 		 */
-		public String sendRequestToServer(String userID,String movieName,String movieSlotID,int numberOfTickets,int port, String funcationality,String newMovieName, String newMovieID) throws IOException {
+		public  String sendRequestToServer(String userID,String movieName,String movieSlotID,int numberOfTickets,int port, String funcationality,String newMovieName, String newMovieID) throws IOException {
 			try {
 				//Send request to server
 				DatagramSocket ds=new DatagramSocket();
@@ -151,7 +151,7 @@ public class MovieBookingImplementation extends UnicastRemoteObject implements A
 		/**
 		 * This method removes movie slots.
 		 */
-		public String removeMovieSlots (String movieID, String movieName){
+		public synchronized String removeMovieSlots (String movieID, String movieName){
 			String result="";
 			boolean removed=false;
 			if (!movieDataMap.isEmpty() && movieDataMap.containsKey(movieName) && movieDataMap.get(movieName).containsKey(movieID)) {
@@ -217,7 +217,7 @@ public class MovieBookingImplementation extends UnicastRemoteObject implements A
 		/**
 		 *Method for booking tickets. This will be invoked by both admin and customers. 
 		 */
-		public String bookMovieTicket(String customerID, String movieID,String movieName, int numberOfTickets) throws IOException {
+		public synchronized String bookMovieTicket(String customerID, String movieID,String movieName, int numberOfTickets) throws IOException {
 			String toServer=movieID.substring(0,3).toUpperCase().trim();		//Movie slot ID will give the respective server where the message is targeted to.
 			String customerFromServer=customerID.substring(0,3).toUpperCase().trim();	//To check where the current logged in customer is from.
 			String result="";
@@ -328,13 +328,13 @@ public class MovieBookingImplementation extends UnicastRemoteObject implements A
 			}
 			//If servers is other.
 			else if (toServer.equals("ATW")) {
-				result=sendRequestToServer(customerID, movieName, movieID, numberOfTickets, aPort,function,"","");
+				result=sendRequestToServer(customerID, movieName, movieID, numberOfTickets, aPort,function,null,null);
 			}
 			else if(toServer.equals("OUT")){
-				result=sendRequestToServer(customerID, movieName, movieID, numberOfTickets, oPort,function,"","");
+				result=sendRequestToServer(customerID, movieName, movieID, numberOfTickets, oPort,function,null,null);
 			}
 			else if(toServer.equals("VER")) {
-				result=sendRequestToServer(customerID, movieName, movieID, numberOfTickets, vPort,function,"","");
+				result=sendRequestToServer(customerID, movieName, movieID, numberOfTickets, vPort,function,null,null);
 			}
 			return result;
 		}
@@ -375,7 +375,7 @@ public class MovieBookingImplementation extends UnicastRemoteObject implements A
 		/**
 		 * This is a method to cancel booked movie tickets.
 		 */
-		public String cancelMovieTickets(String customerID,String movieID, String movieName,int numberOfTickets) throws IOException {
+		public synchronized String cancelMovieTickets(String customerID,String movieID, String movieName,int numberOfTickets) throws IOException {
 			String toServer=movieID.substring(0,3).toUpperCase().trim();
 			String result="";
 			String function="cancelMovieTickets";
@@ -496,20 +496,20 @@ public class MovieBookingImplementation extends UnicastRemoteObject implements A
 			return result;
 		}
 		
-		public String exchangeTickets(String customerID,String movieName, String movieID,String newMovieID,String newMovieName,int numberOfTicketsToCancel) throws IOException{
+		public synchronized String exchangeTickets(String customerID,String movieName, String movieID,String newMovieID,String newMovieName,int numberOfTicketsToCancel) throws IOException{
 			String funcationality="exchangeTickets";
 			String result="";
 			String customerFromServer=customerID.substring(0,3).toUpperCase().trim();
 			String movieBookedFromServer=movieID.substring(0,3).toUpperCase().trim();
 			String newMovieToBookServer=newMovieID.substring(0,3).toUpperCase().trim();
 			
-			if(movieBookedFromServer.equals(customerFromServer)) {
+			if(movieBookedFromServer.equals(this.serverID)) {
 				if(!customerDataMap.isEmpty() && customerDataMap.containsKey(customerID)) {
 					if(customerDataMap.get(customerID).containsKey(movieName)){
 						if(customerDataMap.get(customerID).get(movieName).containsKey(movieID)) {
 							int numberOfTicketsBooked=customerDataMap.get(customerID).get(movieName).get(movieID);
 							if(numberOfTicketsBooked>=numberOfTicketsToCancel) {
-								if(newMovieToBookServer.equals(movieBookedFromServer)) {
+								if(newMovieToBookServer.equals(this.serverID)) {
 									if(movieDataMap.get(newMovieName).get(newMovieID)>=numberOfTicketsToCancel) {
 										//Update movieMap
 										cancelMovieTickets(customerID, movieID, movieName, numberOfTicketsToCancel);
@@ -522,7 +522,7 @@ public class MovieBookingImplementation extends UnicastRemoteObject implements A
 								}
 								else if(newMovieToBookServer.equals("ATW")){
 									funcationality="bookingInExchange";
-									String bookMovierequest=sendRequestToServer(customerID, movieName, movieID, numberOfTicketsToCancel,aPort,funcationality,newMovieName,newMovieID);
+									String bookMovierequest=sendRequestToServer(customerID, movieName, movieID, numberOfTicketsToCancel,aPort,funcationality,newMovieName,newMovieID).trim();
 									if(bookMovierequest.equals(bookingSuccess)) {
 										//Cancelling after successful booking
 										cancelMovieTickets(customerID, movieID, movieName, numberOfTicketsToCancel);
@@ -534,11 +534,11 @@ public class MovieBookingImplementation extends UnicastRemoteObject implements A
 								}
 								else if(newMovieToBookServer.equals("VER")){
 									funcationality="bookingInExchange";
-									String bookMovierequest=sendRequestToServer(customerID, movieName, movieID, numberOfTicketsToCancel,vPort,funcationality,newMovieName,newMovieID);
+									String bookMovierequest=sendRequestToServer(customerID, movieName, movieID, numberOfTicketsToCancel,vPort,funcationality,newMovieName,newMovieID).trim();
 									if(bookMovierequest.equals(bookingSuccess)) {
 										//Cancelling after successful booking
 										cancelMovieTickets(customerID, movieID, movieName, numberOfTicketsToCancel);
-										result= bookMovierequest;
+										result= "Ticket exchanged Successfully";
 									}
 									else {
 										result= bookMovierequest;
@@ -546,11 +546,12 @@ public class MovieBookingImplementation extends UnicastRemoteObject implements A
 								}
 								else if(newMovieToBookServer.equals("OUT")){
 									funcationality="bookingInExchange";
-									String bookMovierequest=sendRequestToServer(customerID, movieName, movieID, numberOfTicketsToCancel,oPort,funcationality,newMovieName,newMovieID);
+									String bookMovierequest=sendRequestToServer(customerID, movieName, movieID, numberOfTicketsToCancel,oPort,funcationality,newMovieName,newMovieID).trim();
 									if(bookMovierequest.equals(bookingSuccess)) {
+							
 										//Cancelling after successful booking
 										cancelMovieTickets(customerID, movieID, movieName, numberOfTicketsToCancel);
-										result= bookMovierequest;
+										result= "Ticket exchanged Successfully";
 									}
 									else {
 										result= bookMovierequest;

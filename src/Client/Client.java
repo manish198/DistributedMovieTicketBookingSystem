@@ -23,11 +23,11 @@ public class Client extends ServerAddress{
 			int check=checkUser(userID);					//checking the type of user.
 			String serverAdddress=getServerAPI(userID);		//stores the api for respective server.
 			boolean userFlag=true;
+			String movieSlotID="";
 			
 			if(check==1) {									//for admin user
 				System.out.println("Admin Working"+serverAdddress);
 				AdminInterface adminObj=(AdminInterface)Naming.lookup(serverAdddress);
-				String movieSlotID="";
 				while(userFlag) {
 					int adminChoice=adminFunctions();				//Menu Choice
 					switch(adminChoice) {
@@ -41,8 +41,8 @@ public class Client extends ServerAddress{
 								SimpleDateFormat dateFormat=new SimpleDateFormat("yyyyMMdd");
 								Date date= dateFormat.parse(userDate);
 								int dateDiff= (int) (date.getTime()-new Date().getTime())/(1000*60*60*24);
-								if (dateDiff > 7) {
-									System.out.println("You can only book with in a week");
+								if (dateDiff > 7 || dateDiff<0) {
+									System.out.println("You can only book with in a week from now.");
 									continue;
 								}
 								if(movieSlotID.substring(0,3).equals(userID.substring(0,3))) {
@@ -56,7 +56,7 @@ public class Client extends ServerAddress{
 							boolean movieChoiceFlag=true;
 							String movieName="";
 							while(movieChoiceFlag) {
-								System.out.println("Choose a Movie : \n 1.Avatar \n 2.Avenger \n 3.Titanic \n");
+								System.out.println("Choose a Movie : \n 1.Avatar \n 2.Avenger \n 3.Titanic");
 								int movieChoose=Integer.parseInt(userInput.nextLine());
 								if (movieChoose==1) {
 									movieName="Avatar";
@@ -198,6 +198,21 @@ public class Client extends ServerAddress{
 						break;
 					}
 					case 4:{
+						System.out.println("To exchange tickets:\n Enter movie name of existing ticket");
+						String movieName=userInput.nextLine().trim();
+						System.out.println("Enter movieID of existing ticket");
+						movieSlotID=userInput.nextLine().trim();
+						System.out.println("Enter new movie Name");
+						String newMovieName=userInput.nextLine().trim();
+						System.out.println("Enter new movieID");
+						String newMovieSlotID=userInput.nextLine().trim();
+						System.out.println("Enter Number of Tickets you want to exchange");
+						int numberOfTickets=Integer.parseInt(userInput.nextLine().trim());
+						String result=customerObj.exchangeTickets(userID,movieName,movieSlotID, newMovieSlotID, newMovieName, numberOfTickets);
+						System.out.println(result);
+						break;
+					}
+					case 5:{
 						userFlag=false;
 						break;
 					}
@@ -254,7 +269,7 @@ public class Client extends ServerAddress{
 	}
 	
 	static int customerFunctions() {
-		System.out.println("Choose:\n 1. Book Movie Tickets \n 2. Get Movie Booking Schedule  \n 3.Cancel Movie Ticket \n 4.Logout");
+		System.out.println("Choose:\n 1. Book Movie Tickets \n 2. Get Movie Booking Schedule  \n 3.Cancel Movie Ticket \n 4.Exchange Movie Tickets \n 5.Logout");
 		int customerChoice=Integer.parseInt(userInput.nextLine());
 		return customerChoice;
 	}

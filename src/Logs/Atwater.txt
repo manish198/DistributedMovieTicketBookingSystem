@@ -126,3 +126,67 @@
 19-02-2023 08:02:52 : Ticket Canceled for  : Username: ATWA2022 for movie Avatar for slot: ATWM020223  : Success  :  Movie Ticket cancelled successfully 
 19-02-2023 08:02:52 : Ticket booking for  : Username: ATWA2022 for movie Avenger for slot: ATWM020223  : Success  : 2 Movie Tickets booked successfully.
 19-02-2023 08:02:55 : Ticket Schedule for  : Username: ATWA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 09:47:07 : Add movie slots : ATWM220223 Avatar 30 : Passed : Avatar Slots ATWM220223 30 available
+20-02-2023 09:49:17 : Add movie slots : ATWM220223 Avatar 20 : Passed : Avatar Slots ATWM220223 20 available
+20-02-2023 09:49:29 : Add movie slots : ATWA220223 Avenger 30 : Passed : Avenger Slots ATWA220223 30 available
+20-02-2023 09:49:43 : Ticket booking for  : Username: ATWA2022 for movie Avatar for slot: ATWM220223  : Success  : 3 Movie Tickets booked successfully.
+20-02-2023 09:49:46 : Ticket Schedule for  : Username: ATWA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 09:50:53 : Ticket Canceled for  : Username: ATWA2022 for movie Avatar for slot: ATWM220223  : Success  :  Movie Ticket cancelled successfully 
+20-02-2023 09:50:53 : Ticket booking for  : Username: ATWA2022 for movie Avenger for slot: ATWA220223  : Success  : 1 Movie Tickets booked successfully.
+20-02-2023 09:50:56 : Ticket Schedule for  : Username: ATWA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 09:51:43 : Ticket Canceled for  : Username: ATWA2022 for movie Avenger for slot: ATWA220223  : Success  :  Movie Ticket cancelled successfully 
+20-02-2023 09:51:43 : Ticket booking for  : Username: ATWA2022 for movie Avatar for slot: ATWM220223  : Success  : 1 Movie Tickets booked successfully.
+20-02-2023 09:51:47 : Ticket Schedule for  : Username: ATWA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 10:00:58 : Add movie slots : ATWM220223 Avatar 20 : Passed : Avatar Slots ATWM220223 20 available
+20-02-2023 10:01:15 : Add movie slots : ATWM220223 Avenger 25 : Passed : Avenger Slots ATWM220223 25 available
+20-02-2023 10:02:11 : Ticket booking for  : Username: ATWC2022 for movie Avatar for slot: ATWM220223  : Success  : 2 Movie Tickets booked successfully.
+20-02-2023 10:02:16 : Ticket Schedule for  : Username: ATWC2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 10:03:01 : Ticket Canceled for  : Username: ATWC2022 for movie Avatar for slot: ATWM220223  : Success  :  Movie Ticket cancelled successfully 
+20-02-2023 10:03:01 : Ticket booking for  : Username: ATWC2022 for movie Avenger for slot: ATWM220223  : Success  : 1 Movie Tickets booked successfully.
+20-02-2023 10:03:06 : Ticket Schedule for  : Username: ATWC2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 10:10:35 : Ticket Schedule for  : Username: ATWC2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 10:11:38 : Ticket Schedule for  : Username: ATWC2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 10:13:47 : Ticket Schedule for  : Username: ATWC2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 10:20:39 : Add movie slots : ATWM220223 Avatar 23 : Passed : Avatar Slots ATWM220223 23 available
+20-02-2023 10:22:00 : Ticket Schedule for  : Username: ATWC2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 10:22:33 : Ticket Schedule for  : Username: ATWC2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 10:23:02 : Ticket booking for  : Username: ATWC2022 for movie Avatar for slot: ATWM220223  : Success  : 4 Movie Tickets booked successfully.
+20-02-2023 10:23:06 : Ticket Schedule for  : Username: ATWC2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 10:23:45 : Add movie slots : ATWM220223 Avenger 30 : Passed : Avenger Slots ATWM220223 30 available
+20-02-2023 10:23:53 : Ticket Schedule for  : Username: ATWC2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 10:25:18 : Ticket Schedule for  : Username: ATWC2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 10:27:38 : Ticket Schedule for  : Username: ATWC2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 10:28:06 : Show availability for  : Avenger  : Success :  Show Availibility Displayed
+20-02-2023 10:28:23 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 12:51:32 : Add movie slots : ATWM220223 Avatar 20 : Passed : Avatar Slots ATWM220223 20 available
+20-02-2023 12:52:27 : Ticket Schedule for  : Username: ATWA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 12:57:18 : Add movie slots : ATWM220223 Avatar 30 : Passed : Avatar Slots ATWM220223 30 available
+20-02-2023 12:58:36 : Ticket booking for  : Username: ATWA2022 for movie Avatar for slot: ATWM220223  : Success  : 3 Movie Tickets booked successfully.
+20-02-2023 12:59:07 : Ticket Schedule for  : Username: ATWA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 14:46:24 : Add movie slots : ATWM220223 Avatar 20 : Passed : Avatar Slots ATWM220223 20 available
+20-02-2023 14:47:05 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: ATWM220223  : Success  : 2 Movie Tickets booked successfully.
+20-02-2023 14:53:12 : Add movie slots : ATWM220223 Avatar 30 : Passed : Avatar Slots ATWM220223 30 available
+20-02-2023 14:55:07 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: ATWA220223  : Failed  :  Movie Slot Doesnot exists.
+20-02-2023 14:55:52 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: ATWM220223  : Success  : 2 Movie Tickets booked successfully.
+20-02-2023 16:38:23 : Add movie slots : ATWM220223 Avatar 20 : Passed : Avatar Slots ATWM220223 20 available
+20-02-2023 16:44:25 : Ticket booking for  : Username: ATWA2022 for movie Avatar for slot: ATWM220223  : Success  : 2 Movie Tickets booked successfully.
+20-02-2023 16:47:57 : Ticket Schedule for  : Username: ATWA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 17:14:13 : Add movie slots : ATWM2202023 Avatar 20 : Passed : Avatar Slots ATWM2202023 20 available
+20-02-2023 17:19:27 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: ATWM220223  : Failed  :  Movie Slot Doesnot exists.
+20-02-2023 17:25:47 : Add movie slots : ATWM220223 Avatar 20 : Passed : Avatar Slots ATWM220223 20 available
+20-02-2023 17:27:27 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: ATWM220223  : Success  : 2 Movie Tickets booked successfully.
+20-02-2023 17:39:07 : Add movie slots : ATWM220223 Avatar 20 : Passed : Avatar Slots ATWM220223 20 available
+20-02-2023 17:40:47 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: ATWM220223  : Success  : 3 Movie Tickets booked successfully.
+20-02-2023 17:52:31 : Add movie slots : ATWM220223 Avatar 20 : Passed : Avatar Slots ATWM220223 20 available
+20-02-2023 17:53:42 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: ATWM220223  : Success  : 3 Movie Tickets booked successfully.
+20-02-2023 17:54:33 : Ticket Canceled for  : Username: OUTA2022 for movie Avatar for slot: ATWM220223  : Success  :  Movie Ticket cancelled successfully 
+20-02-2023 17:58:14 : Add movie slots : ATWM220223 Avatar 20 : Passed : Avatar Slots ATWM220223 20 available
+20-02-2023 17:59:57 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: ATWM220223  : Success  : 3 Movie Tickets booked successfully.
+20-02-2023 18:09:08 : Add movie slots : ATWM220223 Avatar 20 : Passed : Avatar Slots ATWM220223 20 available
+20-02-2023 18:15:23 : Add movie slots : ATWM220223 Avatar 20 : Passed : Avatar Slots ATWM220223 20 available
+20-02-2023 18:19:22 : Add movie slots : ATWM220223 Avatar 20 : Passed : Avatar Slots ATWM220223 20 available
+20-02-2023 18:21:05 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: ATWM220223  : Success  : 3 Movie Tickets booked successfully.
+20-02-2023 18:32:54 : Add movie slots : ATWM220223 Avatar 20 : Passed : Avatar Slots ATWM220223 20 available
+20-02-2023 18:35:23 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: ATWM220223  : Success  : 3 Movie Tickets booked successfully.
+20-02-2023 18:41:50 : Add movie slots : ATWM220223 Avatar 20 : Passed : Avatar Slots ATWM220223 20 available
+20-02-2023 18:43:06 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: ATWM220223  : Success  : 3 Movie Tickets booked successfully.

@@ -21,3 +21,88 @@
 19-02-2023 07:57:40 : Show availability for  : Avenger  : Success :  Show Availibility Displayed
 19-02-2023 07:58:31 : Ticket Canceled for  : Username: OUTA2022 for movie Avatar for slot: OUTM020223  : Success  :  Movie Ticket cancelled successfully 
 19-02-2023 07:58:35 : Ticket Schedule for  : Username: OUTA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 10:21:04 : Add movie slots : OUTM220223 Avatar 25 : Passed : Avatar Slots OUTM220223 25 available
+20-02-2023 10:22:31 : Ticket booking for  : Username: ATWC2022 for movie Avatar for slot: OUTM220223  : Success  : 3 Movie Tickets booked successfully.
+20-02-2023 12:51:56 : Add movie slots : OUTM220223 Avenger 20 : Passed : Avenger Slots OUTM220223 20 available
+20-02-2023 12:52:19 : Ticket booking for  : Username: ATWA2022 for movie Avenger for slot: OUTM220223  : Success  : 2 Movie Tickets booked successfully.
+20-02-2023 12:57:51 : Add movie slots : OUTM220223 Avenger 40 : Passed : Avenger Slots OUTM220223 40 available
+20-02-2023 12:59:04 : Ticket booking for  : Username: ATWA2022 for movie Avenger for slot: OUTM220223  : Success  : 2 Movie Tickets booked successfully.
+20-02-2023 14:46:48 : Add movie slots : OUTM220223 Avatar 30 : Passed : Avatar Slots OUTM220223 30 available
+20-02-2023 14:47:15 : Ticket Schedule for  : Username: OUTA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 14:50:28 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 14:54:15 : Add movie slots : OUTM220223 Avenger 30 : Passed : Avenger Slots OUTM220223 30 available
+20-02-2023 14:54:37 : Ticket booking for  : Username: OUTA2022 for movie Avenger for slot: OUTM220223  : Success  : 2 Movie Tickets booked successfully.
+20-02-2023 14:54:39 : Ticket Schedule for  : Username: OUTA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 14:55:52 : Ticket Canceled for  : Username: OUTA2022 for movie Avenger for slot: OUTM220223  : Success  :  Movie Ticket cancelled successfully 
+20-02-2023 14:55:59 : Ticket Schedule for  : Username: OUTA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 17:05:47 : Ticket Schedule for  : Username: OUTA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 17:14:51 : Add movie slots : OUTM220223 Avatar 30 : Passed : Avatar Slots OUTM220223 30 available
+20-02-2023 17:17:40 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  : 2 Movie Tickets booked successfully.
+20-02-2023 17:17:44 : Ticket Schedule for  : Username: OUTA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 17:19:40 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 17:26:10 : Add movie slots : OUTM220223 Avatar 30 : Passed : Avatar Slots OUTM220223 30 available
+20-02-2023 17:26:51 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  : 2 Movie Tickets booked successfully.
+20-02-2023 17:26:58 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 17:27:27 : Ticket Canceled for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  :  Movie Ticket cancelled successfully 
+20-02-2023 17:27:34 : Ticket Schedule for  : Username: OUTA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 17:27:42 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 17:28:17 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  : 2 Movie Tickets booked successfully.
+20-02-2023 17:28:29 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 17:39:44 : Add movie slots : OUTM220223 Avatar 30 : Passed : Avatar Slots OUTM220223 30 available
+20-02-2023 17:39:49 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 17:40:05 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  : 3 Movie Tickets booked successfully.
+20-02-2023 17:40:08 : Ticket Schedule for  : Username: OUTA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 17:40:18 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 17:40:47 : Ticket Canceled for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  :  Movie Ticket cancelled successfully 
+20-02-2023 17:40:52 : Ticket Schedule for  : Username: OUTA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 17:40:59 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 17:41:34 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  : 3 Movie Tickets booked successfully.
+20-02-2023 17:41:42 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 17:52:47 : Add movie slots : OUTM220223 Avatar 30 : Passed : Avatar Slots OUTM220223 30 available
+20-02-2023 17:52:52 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 17:53:10 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  : 3 Movie Tickets booked successfully.
+20-02-2023 17:53:13 : Ticket Schedule for  : Username: OUTA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 17:53:42 : Ticket Canceled for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  :  Movie Ticket cancelled successfully 
+20-02-2023 17:53:46 : Ticket Schedule for  : Username: OUTA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 17:53:52 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 17:54:33 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  : 3 Movie Tickets booked successfully.
+20-02-2023 17:54:38 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 17:58:53 : Add movie slots : OUTM220223 Avatar 30 : Passed : Avatar Slots OUTM220223 30 available
+20-02-2023 17:58:58 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 17:59:14 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  : 3 Movie Tickets booked successfully.
+20-02-2023 17:59:16 : Ticket Schedule for  : Username: OUTA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 17:59:22 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 17:59:57 : Ticket Canceled for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  :  Movie Ticket cancelled successfully 
+20-02-2023 18:00:00 : Ticket Schedule for  : Username: OUTA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 18:00:07 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 18:00:43 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  : 3 Movie Tickets booked successfully.
+20-02-2023 18:01:28 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 18:09:36 : Add movie slots : OUTM220223 Avatar 30 : Passed : Avatar Slots OUTM220223 30 available
+20-02-2023 18:10:12 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 18:10:52 : Ticket booking for  : Username: OUTA220223 for movie Avatar for slot: OUTM220223  : Success  : 3 Movie Tickets booked successfully.
+20-02-2023 18:15:41 : Add movie slots : OUTM220223 Avatar 30 : Passed : Avatar Slots OUTM220223 30 available
+20-02-2023 18:15:45 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 18:19:45 : Add movie slots : OUTM220223 Avatar 30 : Passed : Avatar Slots OUTM220223 30 available
+20-02-2023 18:20:02 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  : 3 Movie Tickets booked successfully.
+20-02-2023 18:21:20 : Ticket Canceled for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  :  Movie Ticket cancelled successfully 
+20-02-2023 18:22:12 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 18:25:30 : Ticket Schedule for  : Username: OUTA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 18:25:39 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 18:27:58 : Ticket Schedule for  : Username: OUTA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 18:28:14 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 18:29:28 : Ticket Schedule for  : Username: OUTA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 18:33:14 : Add movie slots : OUTM220223 Avatar 30 : Passed : Avatar Slots OUTM220223 30 available
+20-02-2023 18:34:22 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  : 3 Movie Tickets booked successfully.
+20-02-2023 18:34:28 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 18:35:23 : Ticket Canceled for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  :  Movie Ticket cancelled successfully 
+20-02-2023 18:35:28 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 18:42:12 : Add movie slots : OUTM220223 Avatar 30 : Passed : Avatar Slots OUTM220223 30 available
+20-02-2023 18:42:24 : Ticket booking for  : Username: OUTA2022 for movie 3 for slot: OUTM220223  : Failed  :  Movie Doesnot exists.
+20-02-2023 18:42:38 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  : 3 Movie Tickets booked successfully.
+20-02-2023 18:42:39 : Ticket Schedule for  : Username: OUTA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 18:42:44 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 18:43:06 : Ticket Canceled for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  :  Movie Ticket cancelled successfully 
+20-02-2023 18:43:08 : Ticket Schedule for  : Username: OUTA2022  : Success  : Booking Schedule successfully displayed
+20-02-2023 18:43:15 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
+20-02-2023 18:45:25 : Ticket booking for  : Username: OUTA2022 for movie Avatar for slot: OUTM220223  : Success  : 3 Movie Tickets booked successfully.
+20-02-2023 18:45:37 : Show availability for  : Avatar  : Success :  Show Availibility Displayed
